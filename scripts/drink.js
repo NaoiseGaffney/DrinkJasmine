@@ -9,10 +9,10 @@ whatCanIDrink = function(age) {
             return "Drink Coke";
     }
     else if (age < 21) {
-            "Drink Beer";
+            return "Drink Beer";
     }
     else if (age <  130) {
-            "Drink Whiskey";
+            return "Drink Whiskey";
     }
     else {
         return "You're either too old to drink, or 'acting the maggot'.";
